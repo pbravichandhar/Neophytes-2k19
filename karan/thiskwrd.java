@@ -3,7 +3,7 @@ import java.util.*;
 class thiskwrd{
 	int id;
 	String name;
-	keywrd2(int id,String name){
+	thiskwrd(int id,String name){
 		this.id=id;
 		this.name=name;
 	}
@@ -16,7 +16,7 @@ class thiskwrd{
 		for(int i=0; i<n;i++){
 			int n1=sc.nextInt();
 			String n2=sc.next();
-			keywrd2 oj=new keywrd2(n1,n2);
+			thiskwrd oj=new thiskwrd(n1,n2);
 			oj.display();
 		}
 	}

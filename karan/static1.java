@@ -1,10 +1,10 @@
 import java.io.*;
 
-class static{
+class static1{
 	int id;
 	String name;
 	static String CLG="BEC";
-	keywrd1(int i,String n){
+	static1(int i,String n){
 		id=i;
 		name=n;
 	}
@@ -12,9 +12,9 @@ class static{
 		System.out.println("Name : "+name+"\t||\tID : "+id+"\t||\tCollege Name : "+CLG);
 	}
 	public static void main(String[] args){
-		keywrd1 oj1=new keywrd1(001,"Kaiser");
-		keywrd1 oj2=new keywrd1(002,"Karan");
-		keywrd1 oj3=new keywrd1(003,"Sundar");
+		static1 oj1=new static1(001,"Kaiser");
+		static1 oj2=new static1(002,"Karan");
+		static1 oj3=new static1(003,"Sundar");
 		oj1.display();
 		oj2.display();
 		oj3.display();

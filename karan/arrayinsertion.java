@@ -2,27 +2,28 @@ import java.io.*;
 import java.util.*;
 class arrayinsertion{
 	public static void main(String[] args) {
-		int i,n,c,p,j=0;
+        int i,n,c,p;
 		int a[]=new int[50];
-		int b[]=new int[50];
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter n : ");
 		n=sc.nextInt();
-		System.out.println("Enter the array elements :");
 		for(i=0;i<n;i++){
 			a[i]=sc.nextInt();
 		}
-		System.out.println("Enter the location to delete : ");
+		System.out.println("Enter the position to insert the value : ");
 		p=sc.nextInt();
-		for(i=0;i<n;i++){
-			if(i!=(p-1)){
-				b[j]=a[i];
-				j++;
+		System.out.println("Enter the value : ");
+		c=sc.nextInt();
+		for(i=n;i>=p;i--){
+			a[i]=a[i-1];
+			if(i==p){
+				a[i-1]=c;
+				break;
 			}
 		}
-		System.out.println("After deletion : ");
-		for(i=0;i<n-1;i++){
-			System.out.println(b[i]);
+		for(i=0;i<=n;i++){
+			System.out.println(a[i]);
 		}
+		
 	}
 }
