@@ -1,4 +1,4 @@
-/simple java
+//simple java
 
 public class Msd {
 
