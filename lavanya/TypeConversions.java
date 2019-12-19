@@ -1,5 +1,6 @@
 import java.util.*;
-class TypeConversion {
+
+class TypeConversions {
     public static void main(String args[]) {
         System.out.println("enter integer:");
         int i = 0;
