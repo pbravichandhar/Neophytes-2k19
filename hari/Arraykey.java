@@ -1,3 +1,4 @@
+//Search the Key exist or not in an array
 import java.lang.*;
 import java.util.Scanner;
 class Arraykey
