@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class novowels {
+public class NoVowelsInWord {
     static String remVowel(String str) 
     { 
 		Character vowels[]={'a','e','i','o','u','A','E','I','O','U'};

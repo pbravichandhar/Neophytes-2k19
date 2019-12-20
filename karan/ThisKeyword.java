@@ -1,6 +1,6 @@
 import java.util.*;
 
-class thiskwrd{
+class ThisKeyword{
 	int id;
 	String name;
 	thiskwrd(int id,String name){

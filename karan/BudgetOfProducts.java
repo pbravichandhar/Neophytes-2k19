@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class budget{
+class BudgetOfProducts{
 	public static void main(String[] args) {	
 		int a,b,c,d,e;
 		double br=350.34,vs=230.90,as=190.55,ar=125.30,le=180.90,tc=0;

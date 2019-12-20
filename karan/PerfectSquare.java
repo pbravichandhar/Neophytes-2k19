@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class perfectsq {
+public class PerfectSquare {
     public static void main(String[] args) {
       int n,m,a,c=0;
       Scanner sc=new Scanner(System.in);

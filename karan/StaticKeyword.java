@@ -1,6 +1,6 @@
 import java.io.*;
 
-class static1{
+class StaticKeyword{
 	int id;
 	String name;
 	static String CLG="BEC";
