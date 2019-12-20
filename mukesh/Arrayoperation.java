@@ -34,7 +34,7 @@ public class Arrayopration
 	        }
 	        else if(input.equals("remainder"))
 	        {
-	              System.out.print(arr[index]%arr[index+1]+" ");
+	        System.out.print(arr[index]%arr[index+1]+" ");
 	        }
 	    }
 		
