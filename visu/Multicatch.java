@@ -1,3 +1,4 @@
+//program to implement multiple catch
 public class Multicatch {
     public static void main(String[] args) {
         try {

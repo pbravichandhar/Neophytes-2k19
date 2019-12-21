@@ -1,11 +1,14 @@
 //program to implement nested try
 class Nestry {
     public static void main(String args[]) {
-        try {
-            try {
+        try 
+        {
+            try 
+            {
                 System.out.println("going to divide");
                 int b = 39 / 0;
-            } catch (ArithmeticException e) {
+            } catch (ArithmeticException e) 
+            {
                 System.out.println(e);
             }
 
@@ -17,7 +20,8 @@ class Nestry {
             }
 
             System.out.println("other statement");
-        } catch (Exception e) {
+        } catch (Exception e) 
+        {
             System.out.println("handeled");
         }
 
