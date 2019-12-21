@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "visu_eae6b99d"
+        }
+    ]
+}
