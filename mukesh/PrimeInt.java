@@ -11,7 +11,7 @@ public class PrimeInt
             {
                 if(index%index1==0)
                 {
-                    flag=1;
+                     flag=1;
                     break;
                 }
                 
