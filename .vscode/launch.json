@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SumPrime",
+      "request": "launch",
+      "mainClass": "SumPrime"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ToggleString",
+      "request": "launch",
+      "mainClass": "ToggleString"
+    }
+  ]
+}
