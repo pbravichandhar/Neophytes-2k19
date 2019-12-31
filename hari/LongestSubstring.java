@@ -5,43 +5,43 @@ class LongestSubstring
     {
         int j=0,i=0,max=0,flag=0;
         Scanner s=new Scanner(System.in);
-        String a=s.next();
-        char[]arr=a.toCharArray();
-        int[] checkarr=new int[a.length()];
+        String str=s.next();
+        char[]arr=str.toCharArray();
+        int[] arr=new int[a.length()];
         String []res = new String[a.length()];
-        String ResSubstring = "";
+        String Substring = "";
         StringBuffer resultstring = new StringBuffer();
         for(char item:arr)
         {
-            checkarr[i] =Integer.parseInt(item + "");
+            arr[i] =Integer.parseInt(item + "");
             i++;
         }
         i=1;
         for(;i<a.length();i++)
         {
-            if((checkarr[i]%2==1 )&& (checkarr[i-1]%2==0))
+            if((arr[i]%2==1 )&& (arr[i-1]%2==0))
             {
 
                 if(flag!=0)
                 {
-                    resultstring.append(checkarr[i]);
+                    resultstring.append(arr[i]);
                 }
                 else
                 {
-                    resultstring.append(checkarr[i-1]+""+checkarr[i]);
+                    resultstring.append(arr[i-1]+""+arr[i]);
                 }
                 flag++;
 
             }
-            else if((checkarr[i]%2==0) && (checkarr[i-1]%2==1))
+            else if((arr[i]%2==0) && (arr[i-1]%2==1))
             {
                 if(flag!=0)
                 {
-                    resultstring.append(checkarr[i]);
+                    resultstring.append(arr[i]);
                 }
                 else
                 {
-                    resultstring.append(checkarr[i-1]+""+checkarr[i]);
+                    resultstring.append(arr[i-1]+""+arr[i]);
                 }
                 flag++;
             }
@@ -64,7 +64,7 @@ class LongestSubstring
                 if(max<item.length())
                 {
                     max=item.length();
-                    ResSubstring=item;
+                    Substring=item;
                 }
             }
             catch (NullPointerException e)
@@ -72,6 +72,6 @@ class LongestSubstring
                 break;
             }
         }
-        System.out.print(ResSubstring);
+        System.out.print(Substring);
     }
 }
