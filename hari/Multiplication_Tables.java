@@ -3,7 +3,7 @@ Class Multiply
 {
     public static void main(String[] args)
     {
-        Scanner s=new SCanner(System.in);
+        Scanner s=new Scanner(System.in);
         int n=s.nextInt();
         for(int i=1;i<=n;i++)
         {
