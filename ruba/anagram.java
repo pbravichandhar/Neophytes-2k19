@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 class anagram {
-    public static void main(String args[] ) {
+    public static void main(Strilng args[] ) {
        
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
