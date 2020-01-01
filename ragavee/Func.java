@@ -14,7 +14,7 @@ class Func{
         modulo(arr);
     }
     public static void add(int[] input){
-        System.out.println("---Add---");
+ System.out.println("---Add---");
         for(int i=0;i<input.length-1;i++){
             int addres=input[i]+input[i+1];
             System.out.println(addres);
@@ -48,4 +48,4 @@ class Func{
             System.out.println(addres);
         }
     }
-} 
+}  
