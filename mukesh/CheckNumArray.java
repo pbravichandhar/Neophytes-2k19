@@ -1,6 +1,7 @@
 import java.util.*;
 class CheckNumArray{
-     public static void main(String []args){
+    public static void GetInput()
+    {
         System.out.println("Enter the length of array");
         Scanner sc=new Scanner (System.in);
         int len=sc.nextInt();
@@ -14,6 +15,13 @@ class CheckNumArray{
         }
         System.out.println("Enter the number to find");
         int num=sc.nextInt();
+
+        FindNumInArray(len,arr,str,num);
+    }
+
+    public static void FindNumInArray(int len,int arr[],String str,int num)
+    {
+        
         String numstr=Integer.toString(num);
         if(str.contains(numstr))
         {
@@ -23,5 +31,10 @@ class CheckNumArray{
         {
             System.out.println("No");
         }
+
+    }
+     public static void main(String []args){
+        GetInput();
+        
      }
 }

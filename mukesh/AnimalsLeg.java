@@ -9,11 +9,11 @@ public class AnimalsLeg
     }
 	public static void main(String[] args) {
 		Scanner sc=new Scanner (System.in);
-                System.out.println("Enter the count of animals(chick,cow,pig)");
+        System.out.println("Enter the count of animals(chick,cow,pig)");
 		int chick=sc.nextInt();
 		int cow=sc.nextInt();
 		int pig=sc.nextInt();
-		System.out.print(animals(chick,cow,pig));
+		System.out.print("Total animals Leg:"+animals(chick,cow,pig));
 
 	}
 }

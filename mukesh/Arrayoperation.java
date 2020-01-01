@@ -1,19 +1,9 @@
 import java.util.*;
-public class Arrayopration
+public class Arrayoperation
 {
-    
-	public static void main(String[] args) {
-	    Scanner sc=new Scanner (System.in);
-	    System.out.println("Enter the length of Array");
-	    int len=sc.nextInt();
-            int []arr=new int[len];
-	    System.out.print("Enter the Array");
-            for(int index1=0;index1<len;index1++)
-            {
-                arr[index1]=sc.nextInt();
-            }
-        System.out.print("add"+"\n"+"mul"+"\n"+"sub"+"\n"+"div"+"\n"+"remainder"+"\n");
-	    String input=sc.next();
+	public static void Calculationn(int arr[],int len,String input)
+	{
+		
 	    for(int index=0;index<len-1;index++)
 	    {
 	        if(input.equals("add"))
@@ -37,6 +27,22 @@ public class Arrayopration
 	        System.out.print(arr[index]%arr[index+1]+" ");
 	        }
 	    }
+	}
+    
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner (System.in);
+	    System.out.println("Enter the length of Array");
+	    int len=sc.nextInt();
+        int []arr=new int[len];
+	    System.out.println("Enter the Array");
+            for(int index1=0;index1<len;index1++)
+            {
+                arr[index1]=sc.nextInt();
+			}
+			System.out.print("add"+"\n"+"mul"+"\n"+"sub"+"\n"+"div"+"\n"+"remainder"+"\n");
+			String input=sc.next();
+			Calculationn(arr,len,input);
+        
 		
 	}
 }

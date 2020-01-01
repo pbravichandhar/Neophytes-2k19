@@ -5,16 +5,16 @@ public class Main
      Main(){
        value1 = 10;
        value2 = 20;
-       System.out.println("1st Constructor");
+       System.out.println("in the 1st Constructor");
      }
      Main(int a){
       value1 = a;
-      System.out.println("2nd Constructor");
+      System.out.println("in the 2nd Constructor");
     }
     Main(int a,int b){
     value1 = a;
     value2 = b;
-    System.out.println("3rd Constructor");
+    System.out.println("in the 3rd Constructor");
    }
     static void printt(int i)
     {
