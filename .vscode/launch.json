@@ -2,6 +2,12 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Calculation",
+      "request": "launch",
+      "mainClass": "Calculation"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - SumPrime",
       "request": "launch",
       "mainClass": "SumPrime"
