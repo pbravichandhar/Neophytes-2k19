@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class sumofknn {
+public class SumOfKNaturalNo {
     public static void main(String[] args) {
       int a,n=0;
       Scanner sc=new Scanner(System.in);

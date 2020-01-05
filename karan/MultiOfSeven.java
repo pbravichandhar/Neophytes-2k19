@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class multiof7 {
+public class MultiOfSeven {
     public static void main(String[] args) {
       int N;
       Scanner sc=new Scanner(System.in);

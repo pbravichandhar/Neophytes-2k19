@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class arrayinsertion{
+class ArrayInsert {
 	public static void main(String[] args) {
         int i,n,c,p;
 		int a[]=new int[50];
@@ -23,7 +23,6 @@ class arrayinsertion{
 		}
 		for(i=0;i<=n;i++){
 			System.out.println(a[i]);
-		}
-		
+		}	
 	}
 }

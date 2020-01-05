@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class arraydeletion{
+class ArrayDelete {
 	public static void main(String[] args) {
 		int i,n,c,p,j=0;
 		int a[]=new int[50];
@@ -24,6 +24,5 @@ class arraydeletion{
 		for(i=0;i<n-1;i++){
 			System.out.println(b[i]);
 		}
-
 	}
 }
