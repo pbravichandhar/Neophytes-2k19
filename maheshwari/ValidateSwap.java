@@ -42,4 +42,4 @@ System.out.println(Validate(str1,word) ? "Yes" :"No");
 }
 }
 }
-
+//end
