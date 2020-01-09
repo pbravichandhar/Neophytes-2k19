@@ -42,7 +42,6 @@ public class CrossWordPro {
             for (int index2 = 0; index2 < Col; index2++) {
                 if (arr[index1][index2] == str.charAt(0)) {
                     FindInRigthTOLeft(arr, str, index1, index2, Row, Col, len);
-                    System.out.println("0");
                     FindInLeftToRigth(arr, str, index1, index2, Row, Col, len);
                     FindInTopToBottom(arr, str, index1, index2, Row, Col, len);
                     FindInBottomToTop(arr, str, index1, index2, Row, Col, len);
@@ -54,13 +53,13 @@ public class CrossWordPro {
     public static void FindInRigthTOLeft(char[][] arr, String str, int index1, int index2, int Row, int Col, int len) {
         int count = 0;
         int index = 0;
-        if (index2 + str.length() <=Col) {
+        if (index2 + str.length() <= Col) {
             for (int in1 = index2; in1 < Col; in1++) {
                 if (str.charAt(index) == arr[Row][in1]) {
                     count++;
                 }
                 index++;
-                if (index == str.length()-2) {
+                if (index == str.length() - 2) {
                     break;
                 }
 
