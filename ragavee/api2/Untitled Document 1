@@ -1,0 +1,5 @@
+to start mongo server:
+mongod --dbpath data/db --port 27018
+
+to start mongo:  mongo --port 27018
+
