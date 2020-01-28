@@ -5,5 +5,7 @@ module.exports = (app) => {
 
     app.post('/login', teacher.login);
 
+    app.post('/profile', teacher.profile)
+
     app.post('/logout', teacher.logout);
 }

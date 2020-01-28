@@ -68,3 +68,15 @@ exports.logout = async (req, res) => {
         res.send(error)
     }
 }
+exports.profile = async (req, res) => {
+    const file = req.files.photo
+    file.mv('./profile/' + file.name, function(err, result) {
+        if(err) 
+         throw err;
+        res.send({
+         success: true,
+         message: "Profile uploaded!"
+        });
+       })
+}
+
