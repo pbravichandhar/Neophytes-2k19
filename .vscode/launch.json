@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Overload",
+      "request": "launch",
+      "mainClass": "Overload",
+      "projectName": "Neophytes-2k19_1bfbcf1d"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Calculation",
       "request": "launch",
       "mainClass": "Calculation"

@@ -1,14 +1,16 @@
+
 // Java program to illustrate 
 // thread without join() 
+import java.lang.Thread;
 
 public class oneThread1 extends Thread {
     public void run() {
-        System.out.println("geeks ");
+        System.out.println("msd");
         try {
             Thread.sleep(500);
         } catch (InterruptedException ie) {
         }
-        System.out.println("forgeeks ");
+        System.out.println("captain cool ");
     }
 
     public static void main(String[] args) {
